@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #223243;
+    background-image: url( "https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?");
+    background-position: cover;
+     background-repeat: repeat;
+     background-size: cover;
+}
+nav{
+    align-items: center;
+    list-style-type: none;
+    background-color: aqua;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+   
+   
+}
+form{
+    background-color: antiquewhite;
+}
+button{
+    text-align: center;
+    align-items: center;
+}

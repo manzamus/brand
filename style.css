@@ -1,0 +1,211 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color:grey;
+    font-size: 1.5rem;
+        /* border-radius: 12px; */
+    
+    background-size: cover; 
+    height: 400px;
+}
+
+.project img{
+    width: 100px;
+    height: 80px;
+
+}
+.logo-container{
+    background-color: blanchedalmond;
+    
+    padding-top:1rem;
+  text-align: center;
+ /* gap: 4rem;
+  display: flex; */
+}
+img{
+    padding: 18px;
+    width: 300px;
+    height: 300px;
+    margin: 2rem;
+    gap: 3rem;
+}
+.logo{
+    
+    align-items: center;
+}
+.links{
+    background-color: green;
+ gap: 1rem;
+ 
+
+}
+.nav-links{
+
+    
+    display:flex;
+    
+    justify-content: space-around;
+    padding: 30px;
+    list-style-type: none;
+       align-items: center;
+          text-align: center;
+          /* gap: 3rem; */
+}
+.nav-links .nav-link{
+    color: white;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+}
+.pic1{
+   width: 200px
+    
+}
+.pic2{
+    width: 200px;
+    
+}
+.pic3{
+    width: 200px;
+    
+}
+.home-container{
+    background-image: url(https://oceanservice.noaa.gov/ocean/earthday-infographic.jpg);
+margin-top: 24rem;
+    background-size: cover;
+}
+.home{
+  display: flex; 
+ width: 100%;
+ height: 500px;
+ 
+}
+
+.oceanfact-container{
+    padding-top:1rem;
+    text-align: center;
+  background-color: rgb(14, 212, 195);
+ 
+}
+
+.image{
+    display: flex;
+width: 100px;
+    margin: 2rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    gap: 20rem; 
+}
+button{
+    background-color: rgb(43, 226, 58);
+    color: #eee;
+    gap: 4rem;
+    padding: 3rem;
+}
+.biton{
+     padding: 3rem;
+     height: 4rem;
+margin-top: 2rem;
+}
+.byu{
+    font-size: 20px;
+    padding: 3rem;
+    gap: 4rem;
+}
+.topics-container{
+    background-color: rgb(0, 162, 255);
+    height: 500px;
+    padding-top:1rem;
+    color: black;
+    /* display: flex; */
+    }
+    .topics{
+        display: flex;
+        /* background-color: azure; */
+        align-items: center;
+        justify-content: space-between;
+        color: #eee;
+    }
+  /* }
+    form{
+        background-color: #eee;
+        width: 800px;
+        height: 400px;
+        margin: 50px;
+        text-align: center;
+    } */
+    h3{
+        margin-top: 4rem;
+    }
+.list{
+    margin: 50px;
+    text-align: center;
+}
+.menu{
+    padding: 1rem;
+    display: none;
+}
+.home-contner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.socials-media-icons-linkss:hover,
+.socials-media-icons-linkss:visited{
+
+text-decoration: underline;
+text-decoration-color: rgb(250, 2, 2);
+text-shadow: 1px 1px 1px rgb(0, 255, 85);
+left: 0%;
+top: 0%;
+margin-left: 3rem;
+}
+.form{
+
+ margin-right: 2rem;
+    
+}
+.pictur img{
+    width: 400px;
+    height: 300px;
+  
+}
+  .pictur3 img{
+    width: 400px;
+    height: 300px;
+  }
+  p{
+    color: aliceblue;
+  }
+  .news-container{
+    background-color: rgba(29, 15, 231, 0.103);
+    padding: 4rem;
+
+  }
+  h4{
+    color: rgb(49, 25, 20);
+   margin: 1rem;
+  }
+  h1{
+    color: rgb(5, 70, 9);
+  }
+  .profil img{
+    height: 600px;
+    width: 800px;
+  }
+  p{
+    font-size: 30px;
+  }
+
