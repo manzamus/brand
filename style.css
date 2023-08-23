@@ -14,7 +14,7 @@ body{
         /* border-radius: 12px; */
     
     background-size: cover; 
-    height: 400px;
+    height: 400px; 
 }
 
 .project img{
@@ -22,13 +22,26 @@ body{
     height: 80px;
 
 }
+/* .project{
+
+} */
 .logo-container{
     background-color: blanchedalmond;
-    
+   
     padding-top:1rem;
   text-align: center;
  /* gap: 4rem;
   display: flex; */
+}
+
+.gafanda{
+    background-color: green;
+    padding: 3rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
 }
 img{
     padding: 18px;
@@ -44,28 +57,22 @@ img{
 .links{
     background-color: green;
  gap: 1rem;
- 
+ background-size: cover;
 
 }
-.nav-links{
-
-    
-    display:flex;
-    
-    justify-content: space-around;
-    padding: 30px;
-    list-style-type: none;
-       align-items: center;
-          text-align: center;
-          /* gap: 3rem; */
+.nav-link{
+    text-decoration: none;
+    font-size: 2rem;
+    color: aliceblue;
 }
+
 .nav-links .nav-link{
     color: white;
     font-size: 2rem;
     text-transform: capitalize;
     text-decoration: none;
     text-align: center;
-}
+} */
 .pic1{
    width: 200px
     
@@ -80,21 +87,22 @@ img{
 }
 .home-container{
     background-image: url(https://oceanservice.noaa.gov/ocean/earthday-infographic.jpg);
-margin-top: 24rem;
     background-size: cover;
+    display: flex; 
+    width: 100%;
+    height: 500px;
 }
-.home{
-  display: flex; 
- width: 100%;
- height: 500px;
- 
-}
-
 .oceanfact-container{
-    padding-top:1rem;
+    /* padding-top:1rem; */
     text-align: center;
   background-color: rgb(14, 212, 195);
+ height: 650px;
+ gap: 3rem;
  
+}
+.oceanfact{
+
+    font-size: 2rem;
 }
 
 .image{
@@ -124,7 +132,7 @@ margin-top: 2rem;
 }
 .topics-container{
     background-color: rgb(0, 162, 255);
-    height: 500px;
+    height: 650px;
     padding-top:1rem;
     color: black;
     /* display: flex; */
@@ -158,7 +166,7 @@ margin-top: 2rem;
 .home-contner{
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0;</div>
     width: 100%;
 }
 
@@ -208,4 +216,8 @@ margin-left: 3rem;
   p{
     font-size: 30px;
   }
-
+  .about-us-container{
+    background-color: rgb(62, 73, 69);
+    font-size: 2rem;
+  }
+  
